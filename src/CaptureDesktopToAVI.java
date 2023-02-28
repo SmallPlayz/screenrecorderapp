@@ -9,16 +9,6 @@ import java.awt.*;
 import java.io.File;
 import java.util.List;
 
-/**
- * This example demonstrates the entire desktop video capture.
- * <pre>
- * Platforms:           Windows
- * Image source:        Desktop
- * Output video format: AVI
- * Output file:         Desktop.avi
- *
- * @author Serge Piletsky
- */
 public class CaptureDesktopToAVI {
 
     public static void main(String[] args) throws Exception {
