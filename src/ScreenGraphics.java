@@ -65,7 +65,7 @@ public class ScreenGraphics {
             } else {
 
                 EncodingParameters encodingParameters = new EncodingParameters(new File("Video"+(int)(Math.random() * 10000) + 1+".avi"));
-                encodingParameters.setBitrate(10000000);
+                encodingParameters.setBitrate(100000000);
                 encodingParameters.setSize(new Dimension(1600, 900));
                 encodingParameters.setFramerate(30);
                 encodingParameters.setInterpolationMode(InterpolationMode.HighQuality);
